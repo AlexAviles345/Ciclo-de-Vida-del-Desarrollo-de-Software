@@ -17,8 +17,10 @@ public class App {
             System.out.println("4. Calcular area del cuadrado");
             System.out.println("5. Calcular promedio");
             System.out.println("6. Calcular raiz cuadrada");
+            System.out.println("7. Salir del programa");
             System.out.println("------------------------------------------");
             System.out.println("Escoja una opcion:");
+            opcion = scan.nextInt();
 
             switch(opcion){
                 case 1:
@@ -35,7 +37,7 @@ public class App {
 
                 case 5:
                     break;
-                    
+
                 case 6:
                     break;
                 default:

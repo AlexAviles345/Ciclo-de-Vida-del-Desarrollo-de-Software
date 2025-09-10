@@ -21,4 +21,12 @@ public class Rectangulo extends Figura{
     public void setBase(double base) {
         this.base = base;
     }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
 }

@@ -9,6 +9,6 @@ public class Calculadora {
     }
 
     public static double calcularRaizCuadrada ( double n ){
-        return n/n;
+        return Math.sqrt(n);
     }
 }

@@ -8,6 +8,10 @@ public class Cuadrado extends Figura{
         this.lado = 0;
     }
 
+    public void calcularAreaCuadrado(double l) {
+        super.area = l * l;
+    }
+
     public double getLado() {
         return lado;
     }

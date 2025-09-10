@@ -8,6 +8,10 @@ public class Circulo extends Figura{
         this.radio = 0;
     }
 
+    public void calcularAreaCirculo(double radio){
+        super.area = Math.PI * Math.pow(radio, 2);
+    }
+
     public double getRadio() {
         return radio;
     }

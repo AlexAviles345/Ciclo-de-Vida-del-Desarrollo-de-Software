@@ -10,6 +10,10 @@ public class Rectangulo extends Figura{
         this.altura = 0;
     }
 
+    public void calcularAreaRectangulo(double base, double altura){
+        super.area = base * altura;
+    }
+
     public double getBase() {
         return base;
     }

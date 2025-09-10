@@ -21,7 +21,7 @@ public class Calculadora {
         for (double d : nums) {
             total += d;
         }
-        return  total / nums.lenght;
+        return  total / nums.length;
     }
 
     public static double calcularRaizCuadrada ( double n ){
